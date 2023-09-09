@@ -1,0 +1,3 @@
+select empUNI.unique_id, emp.name from 
+Employees emp left join EmployeeUNI empUNI 
+on emp.id =empUNI.id 
